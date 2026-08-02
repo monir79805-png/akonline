@@ -1,0 +1,40 @@
+{
+  "name": "abul-kalam-online",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix isp-billing-live run dev",
+    "build": "npm --prefix isp-billing-live run build",
+    "prestart": "npm run build",
+    "start": "npm --prefix isp-billing-live run start",
+    "preview": "npm --prefix isp-billing-live run preview",
+    "clean": "npm --prefix isp-billing-live run clean",
+    "lint": "npm --prefix isp-billing-live run lint",
+    "test": "npm --prefix isp-billing-live run test"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "routeros-client": "^1.1.1",
+    "vite": "^6.2.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}
